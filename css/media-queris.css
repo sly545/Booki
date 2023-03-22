@@ -1,0 +1,344 @@
+
+@media screen and (max-width:767px) {
+    body{
+      margin-left: 0%;
+      margin-right: 0%;
+      width: 100%;
+    }
+    header{
+      width: 100%;
+    }
+    .navi a:hover{
+      border-top: none;
+      /* width: 100%;
+      border-bottom: solid blue; */
+    }
+    /* .navi a:focus{
+      border-top: none;
+    } */
+
+    /* Appliquer du style lors du click sur les li (pas sur les a) */
+    /* Pour appliquer un :focus sur un élèment, il faut appliquer une pseudo classe :hover sur son élèment parent */
+    /* ATTENTION : A confirmer pour savoir l'expliquer lors de l'oral */
+    .navi li:hover{
+      border-top: none;
+      border-bottom: solid blue;
+    }
+    .navi li:focus{
+      border-top: none;
+    
+    }
+    .filet{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+
+    .navi{
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    
+    .navi ul{
+      margin-top: 20px;
+      padding-left: 0px;
+      width: 100%;
+    }
+    .heb{
+      display: flex;
+      margin-left: 0px;
+      width: 50%;
+      flex-direction: row;
+      justify-content: center;
+      border-bottom: solid grey;
+    }
+    .ac{
+      display: flex;
+      margin-left: 0px;
+      width: 50%;
+      flex-direction: row;
+      justify-content: center;
+      border-bottom: solid gray;
+    }
+    
+  
+    .title{
+      display: block;
+      width: 92%;
+      margin-left: 20px;
+      font-size: 13px;
+    }
+    .title p{
+      font-size: 14px;
+    }
+    .RET{
+      display: none;
+    }
+    .search-form{
+      display: flex;
+      margin-left: 6px;
+      margin-right: 0px;
+    }
+    .search-icon{
+      width: 45px;
+    }
+    .search-input input {
+      width: 250px;
+    }
+    .phone{
+      display: initial;
+      width: 32px;
+    }
+    
+    .choice{
+      display: flex;
+      flex-direction: column;  
+      margin-left: 8px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    .choice a{
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    .filtered{
+      padding: 0%;
+      margin-right: 290px;
+    }
+    .eco{
+      display: flex;
+      margin-left: 0px;
+    }
+    .eco-texte{
+      margin-left: 8px;
+      margin-right: 14px;
+    }
+    .child{
+      display: flex;
+      margin-left: 180px;
+      margin-top: -46px;
+    }
+    .child-texte{
+      margin-left: 8px;
+      margin-right: 15px;
+    }
+    .love{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 12px;
+      margin-top: 15px;
+      margin-left: 0px;
+    }
+    .dog{
+      margin-left: 0px;
+    }
+    .info{
+      margin-left: 25px;
+    }
+    .info-text{
+      font-size: 15px;
+    }
+    .section-one{
+      display: flex;
+      flex-direction: column;
+    }
+    .section-one-hebergement{
+      display:flex;
+      width: 95%;
+      background-color: white;
+      order: 2;
+      flex-direction: column;
+      margin-left: 5px;
+  
+    }
+    .section-one-title{
+      display: flex;
+      margin-left:20px;
+      background-color: white;
+      width: 90%;
+      font-size: 14px;
+    }
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      width: 91%;
+      margin-left:20px;
+    }
+    .card-image img{
+      object-fit: cover;
+      height: 170px;
+      width: 100%;
+    }
+    .contenere-text{
+      justify-content: space-between;
+    }
+    .verti-card{
+      width: 90%;
+    }
+    .verti-etoile-i{
+      margin-top: 45px;
+    }
+    .verti-card-image img{
+      display: flex;
+      height: 158px;
+    }
+    .verti-chambre h2{
+      margin-left: 12px;
+      font-size: 16px;
+    }
+    .verti-prix h3{
+      display: flex;
+      margin-top: 13px;
+      margin-left: 13px;
+      font-weight: 500;
+    }
+    .verti-chambre{
+      display: flex;
+    }
+    .more{
+      width: 95%;
+    }
+    .au-coeur-de{
+      height: 100%;
+    }
+    .regulation{
+      display: flex;
+    }
+    
+    .section-one-populaires{
+      order: 1;
+      display: flex;
+      width: 100%;
+      margin-left: 0%;
+      flex-flow: column;
+      border-radius: 0%;
+    }
+    
+    .title-pop{
+      display: flex;
+    }
+    .title-pop h2{
+      margin-right: 70px;
+    }
+    .title-section-two{
+      width: 90%;
+      margin-left: 20px;
+    }
+    .section-two{
+      display: flex;
+      flex-direction: column;
+      width: 100%; 
+      
+    }
+    .contener-one{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .actyvity-card-vieux-port{
+      display: flex;
+      flex-direction: column;
+      height: 230px;
+      margin-left: 15px;
+      width: 90%;
+    }
+    .actyvity-card-vieux-port img {
+      display: flex;
+      object-fit: cover;
+      height: 184px;
+      width: 100%;
+    }
+    .actyvity-card-fort{
+      display: flex;
+      flex-direction: column;
+      margin-top: 25px;
+      height: 232px;
+      margin-left: 18px;
+      margin-bottom: 25px;
+      width: 90%;
+
+    }
+    .actyvity-card-fort img {
+      display: flex;
+      width: 100%;
+      height: 184px;
+    }
+    .actyvity-card-frioul{
+      display: flex;
+      flex-direction: column;
+      height: 232px;
+      width: 90%;
+      margin-bottom: 25px;
+      margin-left: 18px;
+    }
+    .actyvity-card-frioul img{
+      width: 100%;
+      height: 185px;
+      object-fit: cover;
+
+    }
+    .contener-two{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .actyvity-card-calanques{
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      width: 88%;
+      margin-left: 18px;
+      margin-bottom: 5px;
+    }
+    .actyvity-card-calanques img {
+      height: 182px;
+      display: flex;
+      width: 100%;
+      object-fit: cover;
+    }
+    .actyvity-card-notre-dame{
+      display: flex;
+      flex-direction: column;
+      height: 232px;
+      width:89%;
+      margin-left: 18px;
+      margin-bottom: 32px;
+      margin-top: 25px;
+    }
+    .actyvity-card-notre-dame img{
+      display: flex;
+      width: 100%;
+      object-fit: cover;
+      height: 184px;
+    }
+    .actyvity-card-parc{
+      display: flex;
+      height: 232px;
+      flex-direction: column;
+      width: 89%;
+      margin-left: 18px;
+      margin-top: 0px;
+    }
+    .actyvity-card-parc img{
+      display: flex;
+      width: 100%;
+      object-fit: cover;
+      height: 184px;
+    }
+
+    .contener-one-litle{
+      width: 100%;
+    }
+    .contener-two-litle{
+      margin-left: 0%;
+      width: 100%;
+    }
+    .condition{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+  }

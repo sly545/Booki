@@ -1,0 +1,107 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+  }
+  .search-form {
+    margin-left: 3%;
+  }
+  .choice {
+    margin-left: 2%;
+    flex-wrap: wrap;
+  }
+  .filet {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .choice a {
+    margin-right: 20px;
+  }
+  .info {
+    margin-left: 3%;
+  }
+  .section-one {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-one-hebergement {
+    display: flex;
+    width: 92%;
+    margin-left: 0%;
+    margin-top: 20px;
+  }
+  .title-pop {
+    margin-left: 40px;
+  }
+  .title-pop i {
+    margin-left: 266px;
+  }
+  .section-one-populaires {
+    display: flex;
+    margin-top: 25px;
+    width: 92%;
+    align-items: flex-start;
+    margin-left: 0%;
+  }
+  .section-one-title {
+    display: flex;
+  }
+  .verti-card {
+    margin-left: 35px;
+  }
+  .verti-card-image img {
+    height: 158px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .verti-chambre h2 {
+    font-size: 20px;
+  }
+  .verti-prix h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .verti-card a {
+    width: 100%;
+  }
+  .title-section-two {
+    display: flex;
+    margin-left: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contener-one-litle{
+    display: flex;
+    flex-direction: column;
+    margin-right: 39px;
+    width: 45%;
+  }
+  .contener-one {
+    margin-bottom: 20px;
+    display: flex;
+    width: 85%;
+    justify-content: flex-start;
+  }
+  .actyvity-card-vieux-port {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    width: 47%;
+    margin-right: 0;
+  }
+  .section-one-litle {
+    display: flex;
+    order: 1;
+  }
+  .contener-two {
+    display: flex;
+    width: 85%;
+  }
+}
